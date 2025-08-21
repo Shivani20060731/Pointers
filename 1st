@@ -47,4 +47,18 @@ int main() {
 
 
 
+The original address of the int is: 0x7ffde3ea2a44
+The size (in bytes) of an int is 4
+The address of int after increment is: 0x7ffde3ea2a48
 
+The original address of the float is: 0x7ffde3ea2a40
+The size (in bytes) of a float is 4
+The address of float after increment is: 0x7ffde3ea2a44
+
+The original address of the char is: 0x7ffde3ea2a3f
+The size (in bytes) of a char is 1
+The address of char after increment is: 0x7ffde3ea2a40
+
+The original address of the bool is: 0x7ffde3ea2a3e
+The size (in bytes) of a bool is 1
+The address of bool after increment is: 0x7ffde3ea2a3f
