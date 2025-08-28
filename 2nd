@@ -1,23 +1,31 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+void swap(int *x, int *y)
+{
+    int temp;
+    temp = *x;
+    *x = *y;
+    *y = temp;
 
-    int arr[5]={10, 20, 30, 40, 50};
+    return;
+}
 
-    int* p1=&arr[2];
-    int* p2=&arr[4];
+int main()
+{
 
-    int diff;
+    int a = 5, b = 10;
 
-    diff=*p2-*p1;
+    cout << "Values before swapping are: " << a << " & " << b << endl;
 
-    cout<<"Difference between two selected pointers is: "<<diff;
+    swap(a, b);
+
+    cout << "Swapped Values are: " << a << " & " << b;
 
     return 0;
 }
 
-
 /*==========OUTPUTS==========
-Difference between two selected pointers is: 20
+Values before swapping are: 5 & 10
+Swapped Values are: 10 & 5
 */
