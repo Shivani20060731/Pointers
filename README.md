@@ -90,7 +90,7 @@ Algorithm:
 1. Start
 
 
-2. Declare integers a=5, b=10.
+2. Declare integers a=15, b=13.
 
 
 3. Call swap(a, b) where parameters are references (&).
