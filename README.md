@@ -60,24 +60,23 @@ Program 2: Swapping Numbers (Pass by Pointer)
 
 Algorithm:
 
-1. Start
+Program-2: Swapping Numbers by Pass by Pointer
+Description: Demonstrates Pass by Pointer. The swap function modifies the original variables by using their addresses.
 
+Algorithm:
 
-2. Declare integers a=15, b=13.
+Declare two integer variables a and b.
 
+Display values of a and b before swapping.
 
-3. Call swap(&a, &b) (addresses passed).
+Call swap function, passing addresses of a and b.
 
+Inside swap:
 
-4. Inside function: Dereference pointers and swap values.
-
-
-5. Print updated a and b in main().
-
-
-6. Stop
-
-
+Store *x in a temporary variable.
+Assign *y to *x.
+Assign temp to *y.
+Display swapped values in main().
 
 Expected Result: Values are swapped permanently.
 
